@@ -24,7 +24,7 @@ themesDir = "themes"
     location = "Beijing,China"
     site_description = "个人博客"
     copyright  = "[yeaheo.com](https://yeaheo.com) All Right Reserved . Powered by [Github](//github.com/yeaheo)."
-    avatar = "css/images/avatar.jpg"
+    avatar = "css/images/avatar.png"
     # Enter your email address to display your Gravatar icon in the profile. If not set the theme
     # will fallback to the avatar.
     gravatar = ""
