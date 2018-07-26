@@ -5,7 +5,7 @@ tags = ["openvpn"]
 categories = ["OpenVPN"]
 menu = ""
 disable_comments = true
-banner = "banners/blog003.jpg"
+banner = "cover/blog003.jpg"
 +++
 
 - 前面我们已经将 OpenVPN 集成了 LDAP，实现了 LDAP 统一认证，配置过程参见 [OpenVPN 集成 LDAP ](openvpn-ldap-config.md)，但是还有个问题就是现在所有的 LDAP 用户均可登录 OpenVPN 进而可以访问所有的主机，这个不是我们期望的，我们期望的是**只有特定组内的成员才可以成功登录 OpenVPN**。

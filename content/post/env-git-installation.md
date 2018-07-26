@@ -5,7 +5,7 @@ tags = ["git"]
 categories = ["git"]
 menu = ""
 disable_comments = true
-banner = "banners/blog009.png"
+banner = "cover/blog009.png"
 +++
 
 - 有些时候我们需要安装较新版本的 git 工具，因为有的操作需要在 git 较新版本的基础上才能正常运行。

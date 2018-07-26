@@ -5,7 +5,7 @@ tags = ["rabbitmq"]
 categories = ["linux-tools"]
 menu = ""
 disable_comments = true
-banner = "banners/blog005.jpg"
+banner = "cover/blog005.jpg"
 +++
 
 ### RabbitMQ 介绍

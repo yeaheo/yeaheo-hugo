@@ -5,7 +5,7 @@ tags = ["rabbitmq"]
 categories = ["linux-tools"]
 menu = ""
 disable_comments = true
-banner = "banners/blog004.png"
+banner = "cover/blog004.png"
 +++
 
 ### Erlang 介绍

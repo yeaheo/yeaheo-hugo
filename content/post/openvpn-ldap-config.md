@@ -5,7 +5,7 @@ tags = ["openvpn"]
 categories = ["OpenVPN"]
 menu = ""
 disable_comments = true
-banner = "banners/blog002.jpg"
+banner = "cover/blog002.jpg"
 +++
 ## OpenVPN 集成 LDAP 统一认证
 

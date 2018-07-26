@@ -5,7 +5,7 @@ tags = ["redis"]
 categories = ["redis"]
 menu = ""
 disable_comments = true
-banner = "banners/blog006.png"
+banner = "cover/blog006.png"
 +++
 
 - 在使用 `gem` 安装redis时报错信息如下：
