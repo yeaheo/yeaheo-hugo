@@ -5,7 +5,7 @@ tags = ["openvpn"]
 categories = ["OpenVPN"]
 menu = ""
 disable_comments = true
-banner = "cover/coverblog001.jpg"
+banner = "cover/blog013.jpg"
 +++
 
 
