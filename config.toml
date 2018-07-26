@@ -2,7 +2,7 @@ baseurl = "https://yeaheo.com/"
 languageCode = "en-us"
 title = "Yeaheo's Blog"
 # Enable comments by entering your Disqus shortname
-disqusShortname = "spf13"
+disqusShortname = "yeaheo"
 # Enable Google Analytics by entering your tracking code
 googleAnalytics = ""
 # Define the number of posts per page
