@@ -5,7 +5,7 @@ tags = ["nginx"]
 categories = ["nginx"]
 menu = ""
 disable_comments = true
-banner = "cover/blog008.png"
+banner = "cover/blog008.jpg"
 +++
 
 - Nginx 如果需要实现跨域只需在配置文件中加入以下内容即可开启跨域
