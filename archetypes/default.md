@@ -5,5 +5,5 @@ tags = [""]
 categories = [""]
 menu = ""
 disable_comments = true
-banner = "banners/placeholder.png"
+banner = "cover/placeholder.png"
 +++
