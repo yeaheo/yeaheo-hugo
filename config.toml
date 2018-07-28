@@ -98,7 +98,7 @@ themesDir = "themes"
     facebook        = ""
     facebook_admin  = ""
     twitter_domain  = ""
-    twitter         = "spf13"
+    twitter         = "helleocn"
 
 # Enable and disable widgets for the right sidebar
 [params.widgets]
