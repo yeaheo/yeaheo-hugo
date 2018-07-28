@@ -54,4 +54,4 @@ banner = "cover/mysql004.jpg"
   [mysqld]
   default_password_lifetime=0  #设置密码永不失效
   ```
-- 修改完成，重启 MySQL 服务器即可。
+- 修改完成，重启 MySQL 服务即可。
