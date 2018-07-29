@@ -22,7 +22,7 @@ themesDir = "themes"
     author = "Yeaheo"
     bio = "helleo.cn@gmail.com"
     location = "Beijing,China"
-    site_description = "吕啸腾个人博客：越努力-越幸运"
+    site_description = "个人博客·越努力·越幸运"
     copyright  = "[yeaheo.com](https://yeaheo.com) All Right Reserved . Powered by [Github](//github.com/yeaheo)."
     copyrighta = "Content on this site is licensed under a [Creative Commons Attribution 4.0 International License.](https://creativecommons.org/licenses/by/4.0/)"
     
