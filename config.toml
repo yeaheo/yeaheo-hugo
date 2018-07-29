@@ -1,6 +1,6 @@
 baseurl = "https://yeaheo.com/"
 languageCode = "en-us"
-title = "Yeaheo's Blog"
+title = "Yeaheo's  Blog"
 # Enable comments by entering your Disqus shortname
 disqusShortname = "yeaheo"
 # Enable Google Analytics by entering your tracking code
@@ -24,6 +24,7 @@ themesDir = "themes"
     location = "Beijing,China"
     site_description = "个人博客"
     copyright  = "[yeaheo.com](https://yeaheo.com) All Right Reserved . Powered by [Github](//github.com/yeaheo)."
+    copyrighta = "Content on this site is licensed under a [Creative Commons Attribution 4.0 International License.](https://creativecommons.org/licenses/by/4.0/)"
     avatar = "css/images/avatar.png"
     # Enter your email address to display your Gravatar icon in the profile. If not set the theme
     # will fallback to the avatar.
