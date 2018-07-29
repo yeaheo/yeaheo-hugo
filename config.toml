@@ -100,6 +100,8 @@ themesDir = "themes"
     facebook_admin  = ""
     twitter_domain  = ""
     twitter         = "helleocn"
+    weibo           = "yeaheo"
+    juejin          = "sayhello"
 
 # Enable and disable widgets for the right sidebar
 [params.widgets]
