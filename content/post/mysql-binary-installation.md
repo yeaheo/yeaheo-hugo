@@ -45,12 +45,14 @@ banner = "cover/mysql002.jpg"
 
 ### 准备系统配置文件
 - 准备 MySQL 服务配置文件：
+  
   ```bash
   cd /usr/local/mysql/support-files
   cp my-default.cnf /etc/my.cnf
   ```
 
 - 修改配置文件关键位置如下： 
+  
   ```bash
   basedir = /usr/local/mysql
   datadir = /usr/local/mysql/data
@@ -63,6 +65,7 @@ banner = "cover/mysql002.jpg"
 
 ### 准备系统服务
 - 添加 MySQL 至系统服务，方便服务的启动和停止：
+  
   ```bash
   cp /usr/local/mysql/support-files/mysql.server /etc/init.d/mysqld
   ```
