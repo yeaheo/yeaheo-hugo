@@ -7,3 +7,4 @@ banner = "cover/blog001.jpg"
 +++
 
 ## 越努力，越幸运
+<!--more-->
