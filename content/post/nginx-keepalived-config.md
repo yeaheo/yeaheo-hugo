@@ -19,6 +19,7 @@ banner = "cover/nginx005.jpg"
 - 安装Nginx请参见: [Nginx安装教程](nginx-installation-and-config.md)
 - 具体 Nginx 编译参数如下：
 
+
   ```bash
   --with-http_stub_status_module     ：（enable ngx_http_stub_status_module）支持Nginx状态查询
   --with-http_ssl_module             ：（enable ngx_http_ssl_module）支持https
