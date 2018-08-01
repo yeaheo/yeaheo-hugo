@@ -4,7 +4,7 @@ date = 2018-07-26T18:16:00+08:00
 tags = ["ssh"]
 categories = ["linux-tools"]
 menu = ""
-disable_comments = true
+disable_comments = false
 banner = "cover/linux002.jpg"
 +++
 

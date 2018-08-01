@@ -4,7 +4,7 @@ date = 2018-07-26T13:00:15+08:00
 tags = ["ceph"]
 categories = ["ceph"]
 menu = ""
-disable_comments = true
+disable_comments = false
 banner = "cover/blog016.jpg"
 +++
 ### Ceph简单介绍

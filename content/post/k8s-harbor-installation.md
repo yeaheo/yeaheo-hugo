@@ -4,7 +4,7 @@ date = 2018-07-27T10:33:04+08:00
 tags = ["kubernetes"]
 categories = ["kubernetes"]
 menu = ""
-disable_comments = true
+disable_comments = false
 banner = "cover/k8s001.png"
 +++
 

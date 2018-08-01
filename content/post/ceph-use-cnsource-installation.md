@@ -4,7 +4,7 @@ date = 2018-07-26T13:03:25+08:00
 tags = ["ceph"]
 categories = ["ceph"]
 menu = ""
-disable_comments = true
+disable_comments = false
 banner = "cover/blog018.jpg"
 +++
 ## 使用国内源部署 Ceph

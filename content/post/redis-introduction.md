@@ -4,7 +4,7 @@ date = 2018-07-28T10:12:52+08:00
 tags = ["redis"]
 categories = ["redis"]
 menu = ""
-disable_comments = true
+disable_comments = false
 banner = "cover/redis002.jpg"
 +++
 

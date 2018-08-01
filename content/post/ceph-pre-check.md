@@ -4,7 +4,7 @@ date = 2018-07-26T13:02:46+08:00
 tags = ["ceph"]
 categories = ["ceph"]
 menu = ""
-disable_comments = true
+disable_comments = false
 banner = "cover/blog017.jpg"
 +++
 ## Ceph 安装前的准备工作——预检

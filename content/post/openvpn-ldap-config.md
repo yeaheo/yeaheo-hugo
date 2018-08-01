@@ -4,7 +4,7 @@ date = 2018-07-24T19:11:46+08:00
 tags = ["openvpn"]
 categories = ["OpenVPN"]
 menu = ""
-disable_comments = true
+disable_comments = false
 banner = "cover/blog002.jpg"
 +++
 ## OpenVPN 集成 LDAP 统一认证

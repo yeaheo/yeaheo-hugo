@@ -4,7 +4,7 @@ date = 2018-07-25T19:45:50+08:00
 tags = ["git"]
 categories = ["git"]
 menu = ""
-disable_comments = true
+disable_comments = false
 banner = "cover/blog009.png"
 +++
 

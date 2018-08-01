@@ -4,7 +4,7 @@ date = 2018-07-28T14:22:42+08:00
 tags = ["fastdfs"]
 categories = ["fastdfs"]
 menu = ""
-disable_comments = true
+disable_comments = false
 banner = "cover/fdfs004.jpg"
 +++
 

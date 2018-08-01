@@ -4,7 +4,7 @@ date = 2018-07-29T14:19:23+08:00
 tags = ["nginx"]
 categories = ["nginx"]
 menu = ""
-disable_comments = true
+disable_comments = false
 banner = "cover/nginx002.jpg"
 +++
 

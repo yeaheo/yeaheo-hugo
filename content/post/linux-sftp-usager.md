@@ -4,7 +4,7 @@ date = 2018-07-28T18:17:29+08:00
 tags = ["ftp"]
 categories = ["linux-tools"]
 menu = ""
-disable_comments = true
+disable_comments = false
 banner = "cover/linux005.jpg"
 +++
 

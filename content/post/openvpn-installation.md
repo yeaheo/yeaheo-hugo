@@ -4,7 +4,7 @@ date = 2018-07-24T18:40:31+08:00
 tags = ["openvpn"]
 categories = ["OpenVPN"]
 menu = ""
-disable_comments = true
+disable_comments = false
 banner = "cover/placeholder.png"
 +++
 
