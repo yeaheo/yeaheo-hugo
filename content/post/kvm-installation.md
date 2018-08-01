@@ -9,7 +9,6 @@ banner = "cover/kvm001.jpg"
 +++
 
 - KVM 虚拟化需要 CPU 的硬件虚拟化加速的支持，在本环境中为 Intel 的 CPU，使用的 Intel VT 技术。(该功能在有些主机里面可能需要去 BIOS 里面开启)
-
 - 在安装部署之前需要做准备工作
 - 1、进BIOS开启虚拟化支持
 - 2、关闭防火墙
@@ -111,6 +110,7 @@ banner = "cover/kvm001.jpg"
 
 ### 验证内核模块
 - 验证内核模块是否具有相关功能：
+  
   ```bash
   lsmod |grep kvm
   ```
