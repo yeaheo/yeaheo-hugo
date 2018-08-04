@@ -1,13 +1,13 @@
 +++
-title = "Ceph Cluster Manage"
+title = "Ceph 集群管理"
 date = 2018-07-26T13:03:48+08:00
 tags = ["ceph"]
 categories = ["ceph"]
 menu = ""
-disable_comments = false
+disable_comments = true
 banner = "cover/blog014.jpg"
 +++
-## Ceph集群管理
+
 - 用 ceph-deploy 部署完成后会自动启动集群。
 - Ceph 集群部署完成后，你可以尝试一下管理功能、 rados 对象存储命令，之后可以继续快速入门手册，了解 Ceph 块设备、 Ceph 文件系统和 Ceph 对象网关。
 

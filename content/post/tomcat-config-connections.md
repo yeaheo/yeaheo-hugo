@@ -4,7 +4,7 @@ date = 2018-07-29T14:17:29+08:00
 tags = ["tomcat"]
 categories = ["tomcat"]
 menu = ""
-disable_comments = false
+disable_comments = true
 banner = "cover/tomcat002.jpg"
 +++
 

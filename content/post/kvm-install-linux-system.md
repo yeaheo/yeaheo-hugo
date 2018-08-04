@@ -4,7 +4,7 @@ date = 2018-07-31T16:29:56+08:00
 tags = ["kvm","virtualization"]
 categories = ["kvm"]
 menu = ""
-disable_comments = false
+disable_comments = true
 banner = "cover/kvm002.jpg"
 +++
 

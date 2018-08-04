@@ -4,7 +4,7 @@ date = 2018-07-26T10:12:24+08:00
 tags = ["docker"]
 categories = ["docker"]
 menu = ""
-disable_comments = false
+disable_comments = true
 banner = "cover/blog012.jpg"
 +++
 

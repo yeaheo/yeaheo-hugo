@@ -1,10 +1,10 @@
 +++
-title = "Docker Introduction"
+title = "Docker 安装教程"
 date = 2018-07-26T10:11:44+08:00
 tags = ["docker"]
 categories = ["docker"]
 menu = ""
-disable_comments = false
+disable_comments = true
 banner = "cover/blog011.jpg"
 +++
 

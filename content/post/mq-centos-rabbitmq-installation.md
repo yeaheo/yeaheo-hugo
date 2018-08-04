@@ -4,7 +4,7 @@ date = 2018-07-24T19:45:51+08:00
 tags = ["rabbitmq"]
 categories = ["linux-tools"]
 menu = ""
-disable_comments = false
+disable_comments = true
 banner = "cover/blog005.jpg"
 +++
 

@@ -4,7 +4,7 @@ date = 2018-07-25T18:16:40+08:00
 tags = ["linux"]
 categories = ["linux-tools"]
 menu = ""
-disable_comments = false
+disable_comments = true
 banner = "cover/linux007.jpg"
 +++
 

@@ -1,10 +1,10 @@
 +++
-title = "Ceph Installation"
+title = "Ceph 安装部署"
 date = 2018-07-26T13:02:49+08:00
 tags = ["ceph"]
 categories = ["ceph"]
 menu = ""
-disable_comments = false
+disable_comments = true
 banner = "cover/blog015.jpg"
 +++
 ## Ceph 集群快速部署

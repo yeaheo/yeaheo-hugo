@@ -1,13 +1,13 @@
 +++
-title = "Ceph Introduction"
+title = "Ceph 简单介绍"
 date = 2018-07-26T13:00:15+08:00
 tags = ["ceph"]
 categories = ["ceph"]
 menu = ""
-disable_comments = false
+disable_comments = true
 banner = "cover/blog016.jpg"
 +++
-### Ceph简单介绍
+
 - 不管你是想为云平台提供 `Ceph` 对象存储和/或 `Ceph` 块设备，还是想部署一个 `Ceph` 文件系统或者把 `Ceph` 作为他用，所有 `Ceph` 存储集群的部署都始于部署一个个 `Ceph` 节点、网络和 `Ceph` 存储集群。  `Ceph` 存储集群至少需要一个 `Ceph Monitor` 和两个 `OSD` 守护进程。而运行 `Ceph`文件系统客户端时，则必须要有元数据服务器（ Metadata Server ）。
 - 具体各个部分介绍如下：
 - `Ceph OSDs`: Ceph OSD 守护进程（ Ceph OSD ）的功能是存储数据，处理数据的复制、恢复、回填、再均衡，并通过检查其他OSD 守护进程的心跳来向 Ceph Monitors 提供一些监控信息。当 Ceph 存储集群设定为有2个副本时，至少需要2个 OSD 守护进程，集群才能达到 active+clean 状态（ Ceph 默认有3个副本，但你可以调整副本数）。

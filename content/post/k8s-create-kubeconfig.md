@@ -4,7 +4,7 @@ date = 2018-07-27T10:37:26+08:00
 tags = ["kubernetes"]
 categories = ["kubernetes"]
 menu = ""
-disable_comments = false
+disable_comments = true
 banner = "cover/k8s004.png"
 +++
 - 需要说明的是 `kubelet`、`kube-proxy` 等 Node 机器上的进程与 Master 机器的 `kube-apiserver` 进程通信时需要认证和授权；
