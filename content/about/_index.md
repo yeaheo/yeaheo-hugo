@@ -7,5 +7,4 @@ banner = "cover/blog001.jpg"
 +++
 
 ## 越努力，越幸运
-[-个人简历-](./resume/)
-<!--more-->
+[\<more about me\>](./resume/)
