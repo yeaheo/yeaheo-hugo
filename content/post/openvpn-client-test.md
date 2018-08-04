@@ -15,36 +15,36 @@ banner = "cover/blog013.jpg"
 
 - 客户端安装完成后，将以下证书和秘钥文件拷贝到安装目录中的 `config` 目录下：
 
-    ```bash
-    ca.crt
-    client.crt
-    client.key
-    ta.key
-    ```
+  ```bash
+  ca.crt
+  client.crt
+  client.key
+  ta.key
+  ```
 
 ### 准备客户端配置文件
 - 客户端安装后，需要在安装目录下的 `config` 目录下创建客户端的配置文件 `client.ovpn` 具体内容如下：
 
-    ```bash
-    client
-    dev tun
-    proto tcp
-    remote xxx.xxx.xxx.xxx 1194
-    resolv-retry infinite
-    nobind
-    persist-key
-    persist-tun
+  ```bash
+  client
+  dev tun
+  proto tcp
+  remote xxx.xxx.xxx.xxx 1194
+  resolv-retry infinite
+  nobind
+  persist-key
+  persist-tun
     
-    ca ca.crt
-    cert client.crt
-    key client.key
-    remote-cert-tls server
-    tls-auth ta.key 1
-    cipher AES-256-CBC
+  ca ca.crt
+  cert client.crt
+  key client.key
+  remote-cert-tls server
+  tls-auth ta.key 1
+  cipher AES-256-CBC
     
-    comp-lzo
-    verb 3
-    ```
+  comp-lzo
+  verb 3
+  ```
 
   > 其中 xxx.xxx.xxx.xxx 1194是外网 IP 和端口映射到了内网服务器的 <OpenVPN-Server-IP> 1194上。
 

@@ -24,32 +24,32 @@ banner = "cover/blog018.jpg"
 ### 安装指定版本的 Ceph
 - 这里以安装最新版本的 Jewel 为例，由于 Jewel 版本中已经不提供 el6 的镜像源，所以只能使用 CentOS 7 以上版本进行安装。我们并不需要在 repos 里增加相应的源，只需要设置环境变量，即可让 ceph-deploy 使用国内源，具体过程如下：
 
-    ```bash
-    export CEPH_DEPLOY_REPO_URL=http://mirrors.163.com/ceph/rpm-jewel/el7
-    export CEPH_DEPLOY_GPG_URL=http://mirrors.163.com/ceph/keys/release.asc
-    ```
+  ```bash
+  export CEPH_DEPLOY_REPO_URL=http://mirrors.163.com/ceph/rpm-jewel/el7
+  export CEPH_DEPLOY_GPG_URL=http://mirrors.163.com/ceph/keys/release.asc
+  ```
 
 - 之后的过程就没有任何区别了，大概参考步骤如下所示：
   
-    ```bash
-    # Create monitor node
-    ceph-deploy new node1 node2 node3
-    
-    # Software Installation
-    ceph-deploy install deploy node1 node2 node3
-    
-    # Gather keys
-    ceph-deploy mon create-initial
-    
-    # Ceph deploy parepare and activate
-    ceph-deploy osd prepare node1:/dev/sdb node2:/dev/sdb node3:/dev/sdb
-    ceph-deploy osd activate node1:/var/lib/ceph/osd/ceph-0 node2:/var/lib/ceph/osd/ceph-1 node3:/var/lib/ceph/osd/ceph-2
-    
-    # Make 3 copies by default
-    echo "osd pool default size = 3" | tee -a $HOME/ceph.conf
-    
-    # Copy admin keys and configuration files
-    ceph-deploy --overwrite-conf admin deploy node1 node2 node3
-    ```
+  ```bash
+  # Create monitor node
+  ceph-deploy new node1 node2 node3
+   
+  # Software Installation
+  ceph-deploy install deploy node1 node2 node3
+  
+  # Gather keys
+  ceph-deploy mon create-initial
+  
+  # Ceph deploy parepare and activate
+  ceph-deploy osd prepare node1:/dev/sdb node2:/dev/sdb node3:/dev/sdb
+  ceph-deploy osd activate node1:/var/lib/ceph/osd/ceph-0 node2:/var/lib/ceph/osd/ceph-1 node3:/var/lib/ceph/osd/ceph-2
+
+  # Make 3 copies by default
+  echo "osd pool default size = 3" | tee -a $HOME/ceph.conf
+ 
+  # Copy admin keys and configuration files
+  ceph-deploy --overwrite-conf admin deploy node1 node2 node3
+  ```
 
 - 如果服务器在香港或者国外，这些操作可以不做，用官方提供的源即可！
