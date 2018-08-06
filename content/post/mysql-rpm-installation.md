@@ -6,6 +6,7 @@ categories = ["mysql"]
 menu = ""
 disable_comments = true
 banner = "cover/mysql001.jpg"
+description = "MySQL 的安装方式有好多种，一般有的人利用 MySQL 的二进制文件进行安装配置，还有些人利用 rpm 包管理工具安装配置，每种方式都有自己的优缺点，个人认为第二种方式比较简单，但是前者安装更加灵活，方便定制功能，这里我将介绍第二种方式"
 +++
 
 - 本总结适合于利用 rpm 的方式安装 MySQL 数据库

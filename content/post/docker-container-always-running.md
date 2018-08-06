@@ -6,6 +6,7 @@ categories = ["docker"]
 menu = ""
 disable_comments = true
 banner = "cover/docker002.jpg"
+description = "有时候我们需要的是当 docker 服务重启后以前运行的容器依然在运行，但是官方默认的是当 docker 服务停止后，以前运行的容器就会停止，需要重新启动，这样有时候并不是我们期望的，这种情况官方也有考虑，也做了具体的解决方案。"
 +++
 
 - 有时候我们需要的是当 docker 服务重启后以前运行的容器依然在运行，但是官方默认的是当 docker 服务停止后，以前运行的容器就会停止，需要重新启动

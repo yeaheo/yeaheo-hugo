@@ -6,6 +6,7 @@ categories = ["kubernetes"]
 menu = ""
 disable_comments = true
 banner = "cover/k8s006.png"
+description = ""
 +++
 
 - kubernetes master 节点包含的组件包括以下几个部分：

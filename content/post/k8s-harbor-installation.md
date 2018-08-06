@@ -6,6 +6,7 @@ categories = ["kubernetes"]
 menu = ""
 disable_comments = true
 banner = "cover/k8s001.png"
+description = ""
 +++
 
 - 配置私有 docker 镜像仓库 harbor，为的是将自己构建的镜像 push 到私有镜像仓库中，方便以后拉取。

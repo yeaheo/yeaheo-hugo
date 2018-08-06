@@ -6,6 +6,7 @@ categories = ["linux-tools"]
 menu = ""
 disable_comments = true
 banner = "cover/linux007.jpg"
+description = ""
 +++
 
 - fail2ban 是一款实用软件，可以监视你的系统日志，然后匹配日志的错误信息（正则式匹配）执行相应的屏蔽动作。

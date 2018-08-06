@@ -6,6 +6,7 @@ categories = ["OpenVPN"]
 menu = ""
 disable_comments = true
 banner = "cover/blog013.jpg"
+description = ""
 +++
 
 

@@ -6,6 +6,7 @@ categories = ["linux-tools"]
 menu = ""
 disable_comments = true
 banner = "cover/blog004.png"
+description = ""
 +++
 
 ### Erlang 介绍

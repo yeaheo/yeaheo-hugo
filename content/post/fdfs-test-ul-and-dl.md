@@ -6,6 +6,7 @@ categories = ["fastdfs"]
 menu = ""
 disable_comments = true
 banner = "cover/fdfs004.jpg"
+description = "当我们安装配置完成了全部工作，接下来就是测试了。因为执行文件全部在 `/usr/bin`目录下，我们切换到这里，并新建一个 test.txt 文件，随便写一点什么，我写了 This is a test file. by:mafly 这句话在里边。然后测试上传："
 +++
 
 #### 上传测试

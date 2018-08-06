@@ -6,6 +6,7 @@ categories = ["docker"]
 menu = ""
 disable_comments = true
 banner = "cover/blog012.jpg"
+description = "本次安装的 docker 客户端是 CE 版本(g)，具体安装教程参考官方文档相关教程： <https://docs.docker.com/glossary/?term=installation>"
 +++
 
 - 本次安装的 docker 客户端是 CE 版本(g)

@@ -6,6 +6,7 @@ categories = ["linux-tools"]
 menu = ""
 disable_comments = true
 banner = "cover/linux002.jpg"
+description = ""
 +++
 
 - 早期版本的 openssh 具有较大漏洞，为了安全我们需要升级 ssh 版本：

@@ -6,6 +6,7 @@ categories = ["kubernetes"]
 menu = ""
 disable_comments = true
 banner = "cover/k8s007.png"
+description = ""
 +++
 
 

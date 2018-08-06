@@ -6,6 +6,7 @@ categories = ["kubernetes"]
 menu = ""
 disable_comments = true
 banner = "cover/k8s010.png"
+description = ""
 +++
 
 - `kube-dns` 官方的 `yaml` 文件其实在我们先前下载的 `kubernetes server` 软件包内，具体路径为：`/srv/kubernetes/cluster/addons/dns`

@@ -6,6 +6,7 @@ categories = ["kubernetes"]
 menu = ""
 disable_comments = true
 banner = "cover/k8s008.png"
+description = ""
 +++
 
 - kubernetes node 节点包含如下组件：

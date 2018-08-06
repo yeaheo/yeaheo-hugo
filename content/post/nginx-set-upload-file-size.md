@@ -6,6 +6,7 @@ categories = ["nginx"]
 menu = ""
 disable_comments = true
 banner = "cover/nginx002.jpg"
+description = "Nginx 默认可以上传 2M 的文件，但是不支持上传特别大的文件，这种情况有时候并不是我们期望的，尤其是用 nginx 做文件服务器时是很尴尬的，所以当我们需要上传的文件比较大时需要修改一下 Nginx 的配置文件。"
 +++
 
 - Nginx 默认不支持上传特别大的文件，所以当我们需要上传文件大小时需要修改一下 Nginx 的配置文件。

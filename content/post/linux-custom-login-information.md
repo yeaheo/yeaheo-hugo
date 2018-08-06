@@ -6,6 +6,7 @@ categories = ["linux-tools"]
 menu = ""
 disable_comments = true
 banner = "cover/linux006.jpg"
+description = "当我们通过远程工具登录 Linux 服务器的时候，首先会出现登录提示信息，具体包括登录时间，登录 IP 地址等，有的时候还会看到最近一次登录失败的信息，但是有时候还需要我们自定义自己的登录信息，可以做些提示信息，也可以将管理员的联系方式写上去。"
 +++
 
 - Linux 服务器默认登录提示信息如下所示：

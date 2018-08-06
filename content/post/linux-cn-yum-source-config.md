@@ -6,6 +6,7 @@ categories = ["linux-tools"]
 menu = ""
 disable_comments = true
 banner = "cover/linux004.jpg"
+description = ""
 +++
 
 - 目前国内常用的镜像源有阿里云源和网易源两种：

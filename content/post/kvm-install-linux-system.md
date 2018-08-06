@@ -6,6 +6,7 @@ categories = ["kvm"]
 menu = ""
 disable_comments = true
 banner = "cover/kvm002.jpg"
+description = "当我们安装好 KVM 虚拟机的配置环境后，我们可以通过 KVM 安装我们自己需要的系统，我们可以安装 Linux、Windows 等系统，这个还需要我们按照我们的需求进行选择，一般我们选择安装 Linux 系统，因为我们常用的服务器里的系统就是 Linux。"
 +++
 
 - 安装 Linux 虚拟机需要先准备磁盘文件和镜像文件

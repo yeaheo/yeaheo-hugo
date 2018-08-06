@@ -6,6 +6,7 @@ categories = ["kubernetes"]
 menu = ""
 disable_comments = true
 banner = "cover/k8s002.png"
+description = ""
 +++
 
 - 集群环境如下：

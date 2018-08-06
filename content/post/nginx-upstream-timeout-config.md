@@ -6,6 +6,7 @@ categories = ["nginx"]
 menu = ""
 disable_comments = true
 banner = "cover/blog007.png"
+description = ""
 +++
 
 - 有时候我们用 nginx 做反向代理的时候会遇到如下报错：

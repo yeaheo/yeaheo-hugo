@@ -6,6 +6,7 @@ categories = ["OpenVPN"]
 menu = ""
 disable_comments = true
 banner = "cover/placeholder.png"
+description = ""
 +++
 
 - **OpenVPN** 是一个用于创建虚拟专用网络加密通道的软件包，最早由 James Yonan 编写。OpenVPN 允许创建的 VPN 使用公开密钥、电子证书、或者用户名/密码来进行身份验证。

@@ -6,6 +6,7 @@ categories = ["mysql"]
 menu = ""
 disable_comments = true
 banner = "cover/mysql003.jpeg"
+description = "MySQL数据库自身提供的主从复制功能可以方便的实现数据的多处自动备份，实现数据库的拓展。多个数据备份不仅可以加强数据的安全性，通过实现读写分离还能进一步提升数据库的负载性能。下面具体介绍如何配置 MySQL 的主从或者主主复制，希望可以帮助大家"
 +++
 
 - 参考环境:

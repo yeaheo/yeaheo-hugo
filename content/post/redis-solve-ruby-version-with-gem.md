@@ -6,6 +6,7 @@ categories = ["redis"]
 menu = ""
 disable_comments = true
 banner = "cover/blog006.png"
+description = ""
 +++
 
 - 在使用 `gem` 安装redis时报错信息如下：

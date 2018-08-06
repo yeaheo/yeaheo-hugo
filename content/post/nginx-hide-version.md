@@ -6,6 +6,7 @@ categories = ["nginx"]
 menu = ""
 disable_comments = true
 banner = "cover/nginx004.jpg"
+description = "有时候，我们用的 ngixn 访问的时候会出现 nginx 的版本号，这样是不安全的，有些人会利用某些版本的 nginx 的漏洞对我们的网站进行攻击，为了比较安全的应用 nginx 我们这里介绍如何隐藏 nginx 的版本号。"
 +++
 
 - 修改前测试如下：

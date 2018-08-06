@@ -6,6 +6,7 @@ categories = ["nginx"]
 menu = ""
 disable_comments = true
 banner = "cover/nginx003.jpg"
+description = ""
 +++
 
 - Nginx 官网：<http://nginx.org>

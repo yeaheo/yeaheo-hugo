@@ -6,6 +6,7 @@ categories = ["OpenVPN"]
 menu = ""
 disable_comments = true
 banner = "cover/blog019.jpg"
+description = ""
 +++
 
 ## Linux OpenVPN 客户端连接配置
