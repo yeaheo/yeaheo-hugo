@@ -6,7 +6,7 @@ disqusShortname = "yeaheo"
 # Enable Google Analytics by entering your tracking code
 googleAnalytics = ""
 # Define the number of posts per page
-paginate = 10
+paginate = 6
 footnotereturnlinkcontents = "↩"
 theme = "hugo-icarus-theme"
 # Comment the themesDir option if you use this theme in production
