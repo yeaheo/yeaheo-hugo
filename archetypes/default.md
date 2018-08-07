@@ -6,4 +6,5 @@ categories = [""]
 menu = ""
 disable_comments = true
 banner = "cover/placeholder.png"
+description = ""
 +++
