@@ -6,7 +6,7 @@ categories = ["linux-tools"]
 menu = ""
 disable_comments = true
 banner = "cover/blog005.jpg"
-description = ""
+description = "RabbitMQ 是由 LShift 提供的一个 Advanced Message Queuing Protocol (AMQP) 的开源实现，由以高性能、健壮以及可伸缩性出名的 Erlang 写成，因此也是继承了这些优点。在这里，我们尝试在 CentOS7 系统上安装 RabbitMQ ，安装方式选择 yum 的安装方式。"
 +++
 
 ### RabbitMQ 介绍
@@ -18,7 +18,7 @@ description = ""
 - **RabbitMQ** 是用 Erlang 语言编写的，所以我们必须先安装 Erlang 环境才能进行下一步的安装。
 
 - 在 CentOS 7 上安装Erlang和Elixir参见如下链接:
-- [Install Erlang and Elixir in CentOS 7](linux-centos-erlang-elixir-installation.md)
+- [Install Erlang and Elixir in CentOS 7](https://yeaheo.com/post/mq-centos-erlang-elixir-installation/)
 
 ### 安装 RabbitMQ
 ![RabbitMQ](http://p8pht6nl3.bkt.clouddn.com/RabbirMQ.png "RabbirMQ")

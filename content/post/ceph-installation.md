@@ -6,7 +6,7 @@ categories = ["ceph"]
 menu = ""
 disable_comments = true
 banner = "cover/blog015.jpg"
-description = "这次部署我们选用一个管理节点和三个 MON 节点、三个 OSD 节点，一旦集群达到 active + clean 状态，还可以扩展：增加 OSD 节点、增加元数据服务器或者增加 MON 节点。"
+description = "为了能够更快速的体验 ceph 的功能，这次部署我们选用一个管理节点和三个 MON 节点、三个 OSD 节点，一旦集群达到 active + clean 状态，还可以扩展：增加 OSD 节点、增加元数据服务器或者增加 MON 节点。"
 +++
 ## Ceph 集群快速部署
 - 在正式部署之前需要先做完预检方面的工作，参见 [ceph预检](https://yeaheo.com/2018/07/26/ceph-pre-check/)

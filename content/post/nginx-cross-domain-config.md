@@ -6,7 +6,7 @@ categories = ["nginx"]
 menu = ""
 disable_comments = true
 banner = "cover/blog008.jpg"
-description = ""
+description = "当我们利用代码获取数据的时候使用，涉及到的两个 url 只要协议、域名、端口有任何一个不同，都被当作是不同的域，相互访问就会有跨域问题，下面是关于 nginx 解决跨域问题的相关教程，希望可以帮助大家"
 +++
 
 - Nginx 如果需要实现跨域只需在配置文件中加入以下内容即可开启跨域

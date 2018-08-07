@@ -6,7 +6,7 @@ categories = ["linux-tools"]
 menu = ""
 disable_comments = true
 banner = "cover/linux002.jpg"
-description = ""
+description = "早期版本的 openssh 具有较大漏洞，有时候一些人会利用此漏洞来攻击我们的服务器，严重的会造成我们的服务器宕机，导致我们的服务中断造成不可估量的损失，为了更安全利用我们的服务器，我们需要定期升级 ssh 版本。"
 +++
 
 - 早期版本的 openssh 具有较大漏洞，为了安全我们需要升级 ssh 版本：

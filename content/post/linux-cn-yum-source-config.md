@@ -6,7 +6,7 @@ categories = ["linux-tools"]
 menu = ""
 disable_comments = true
 banner = "cover/linux004.jpg"
-description = ""
+description = "当我们在服务器上安装了 Linux 系统后，想必大家都遇到过用 yum 安装软件的时候，速度真的是不敢恭维，遇到这种情况，推荐大家都安装国内的 yum 源，这样当我们安装软件的时候会更快，体验也不错，推荐大家试试，下面是详细教程"
 +++
 
 - 目前国内常用的镜像源有阿里云源和网易源两种：

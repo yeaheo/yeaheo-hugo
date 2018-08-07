@@ -6,7 +6,7 @@ categories = ["nginx"]
 menu = ""
 disable_comments = true
 banner = "cover/nginx003.jpg"
-description = ""
+description = "Nginx 是一款性能十分优秀的 WEB 服务器软件，对于静态资源的处理比 Apache 性能还要高，非常厉害了，nginx 的安装方式有很多种，本文档只介绍两种方法，即源码编译安装和 rpm 包管理工具 yum 安装。"
 +++
 
 - Nginx 官网：<http://nginx.org>

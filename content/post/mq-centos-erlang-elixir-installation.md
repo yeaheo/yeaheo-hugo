@@ -6,7 +6,7 @@ categories = ["linux-tools"]
 menu = ""
 disable_comments = true
 banner = "cover/blog004.png"
-description = ""
+description = "Erlang 是一种开源编程语言，用于构建具有高可用性要求的大规模可扩展软实时系统。它的一些用途是电信，银行，电子商务，电脑电话和即时消息。Elixir 是一款动态的功能性语言，专为构建可扩展和可维护的应用程序而设计。本次我们选择在 CentOS7 上安装相应的环境。"
 +++
 
 ### Erlang 介绍

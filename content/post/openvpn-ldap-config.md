@@ -6,7 +6,7 @@ categories = ["OpenVPN"]
 menu = ""
 disable_comments = true
 banner = "cover/blog002.jpg"
-description = ""
+description = "前面已经成功部署了 OpenVPN 的服务端，户端和服务端采用的是基于 TLS 的双向认证，需要给每个客户端生成客户端私钥和证书。本文档我们在 OpenVPN 服务端集成的 LDAP 认证，这样能够使客户端用户在连接 VPN 时直接使用统一的 LDAP 账号进行统一认证"
 +++
 ## OpenVPN 集成 LDAP 统一认证
 

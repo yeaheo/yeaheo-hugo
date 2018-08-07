@@ -6,7 +6,7 @@ categories = ["ceph"]
 menu = ""
 disable_comments = true
 banner = "cover/blog016.jpg"
-description = "不管你是想为云平台提供 `Ceph` 对象存储和/或 `Ceph` 块设备，还是想部署一个 `Ceph` 文件系统或者把 `Ceph` 作为他用，所有 `Ceph` 存储集群的部署都始于部署一个个 `Ceph` 节点、网络和 `Ceph` 存储集群。  `Ceph` 存储集群至少需要一个 `Ceph Monitor` 和两个 `OSD` 守护进程。而运行 `Ceph`文件系统客户端时，则必须要有元数据服务器（ Metadata Server ）。"
+description = "不管你是想为云平台提供 ceph 对象存储或 Ceph 块设备，还是想部署一个 Ceph 文件系统或者把 Ceph 作为他用，所有 Ceph 存储集群的部署都始于部署一个个 Ceph 节点、网络和 Ceph 存储集群。  Ceph 存储集群至少需要一个 Ceph Monitor 和两个 OSD 守护进程。"
 +++
 
 - 不管你是想为云平台提供 `Ceph` 对象存储和/或 `Ceph` 块设备，还是想部署一个 `Ceph` 文件系统或者把 `Ceph` 作为他用，所有 `Ceph` 存储集群的部署都始于部署一个个 `Ceph` 节点、网络和 `Ceph` 存储集群。  `Ceph` 存储集群至少需要一个 `Ceph Monitor` 和两个 `OSD` 守护进程。而运行 `Ceph`文件系统客户端时，则必须要有元数据服务器（ Metadata Server ）。

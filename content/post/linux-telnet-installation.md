@@ -6,7 +6,7 @@ categories = ["linux-tools"]
 menu = ""
 disable_comments = true
 banner = "cover/linux003.jpg"
-description = ""
+description = "Telnet 命令一般用于远程登录。 Telnet 程序是基于 TELNET 协议的远程登录客户端程序，Telnet 协议是 TCP/IP 协议族中的一员，是 Internet 远程登陆服务的标准协议和主要方式。本次我们安装和配置Telnet服务是为升级OpenSSH做准备，避免升级失败造成无法远程登录。"
 +++
 
 - Telnet 命令一般用于远程登录。 Telnet 程序是基于 TELNET 协议的远程登录客户端程序，Telnet 协议是 TCP/IP 协议族中的一员，是 Internet 远程登陆服务的标准协议和主要方式。

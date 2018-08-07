@@ -6,7 +6,7 @@ categories = ["nginx"]
 menu = ""
 disable_comments = true
 banner = "cover/blog007.png"
-description = ""
+description = "当我们利用 nginx 软件做某些项目的反向代理时，有时候会出现当我们调用某个接口时报错，报错的状态码一般为 504，也就是代理超时了，我们需要修改 nginx 配置文件，在其中加入代理超时的相关配置，具体配置信息参见如下内容，希望可以帮助大家"
 +++
 
 - 有时候我们用 nginx 做反向代理的时候会遇到如下报错：

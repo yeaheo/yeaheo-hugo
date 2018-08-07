@@ -6,7 +6,7 @@ categories = ["OpenVPN"]
 menu = ""
 disable_comments = true
 banner = "cover/blog013.jpg"
-description = ""
+description = "先前我们已经安装了 OpenVPN 服务器端，安装完成后还需要我们用客户端测试一下我们先前安装的 vpn 是否可用。为了方便测试，我们本次利用 Windows 客户端进行测试"
 +++
 
 
