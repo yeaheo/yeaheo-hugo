@@ -6,7 +6,7 @@ disqusShortname = "yeaheo"
 # Enable Google Analytics by entering your tracking code
 googleAnalytics = ""
 # Define the number of posts per page
-paginate = 6
+paginate = 10
 footnotereturnlinkcontents = "↩"
 theme = "hugo-icarus-theme"
 # Comment the themesDir option if you use this theme in production
@@ -101,7 +101,7 @@ themesDir = "themes"
     facebook_admin  = ""
     twitter_domain  = ""
     twitter         = "helleocn"
-    weibo           = "2992166903"
+    weibo           = "yeaheo"
 
 # Enable and disable widgets for the right sidebar
 [params.widgets]

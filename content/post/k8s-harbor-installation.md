@@ -6,7 +6,7 @@ categories = ["kubernetes"]
 menu = ""
 disable_comments = true
 banner = "cover/k8s001.png"
-description = ""
+description = "在自己部署 kubernetes 集群前，建议先安装我们自己的私有仓库，配置私有 docker 镜像仓库 harbor，为的是将自己构建的镜像 push 到私有镜像仓库中，方便以后集群部署过程中拉取所需要的镜像，本文档我们使用 harbor 搭建自己的私有镜像仓库"
 +++
 
 - 配置私有 docker 镜像仓库 harbor，为的是将自己构建的镜像 push 到私有镜像仓库中，方便以后拉取。

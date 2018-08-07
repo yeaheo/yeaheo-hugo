@@ -6,7 +6,7 @@ categories = ["kubernetes"]
 menu = ""
 disable_comments = true
 banner = "cover/k8s006.png"
-description = ""
+description = "kubernetes master 节点包含的组件包括以下几个部分：kube-apiserver、kube-scheduler 以及 kube-controller-manager。本次部署我们将三个组件安装在一台机器上，kube-scheduler、kube-controller-manager 和 kube-apiserver 三者的功能紧密相关"
 +++
 
 - kubernetes master 节点包含的组件包括以下几个部分：

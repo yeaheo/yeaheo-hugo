@@ -6,7 +6,7 @@ categories = ["kubernetes"]
 menu = ""
 disable_comments = true
 banner = "cover/k8s003.png"
-description = ""
+description = "在 kubernetes 集群中 kubectl 是个非常重要的命令行工具，它的作用相当于 docker 的相关命令，可以通过自己定义的 yaml 文件启动相关 pod 及 service，所以当我们拥有 k8s 集群后需要从 docker 过度到 kubectl"
 +++
 
 - 其实 kubernetes 的 server 软件包基本涵盖了 kubernetes 几乎所有的工具，所以我们只需要下载 kubernetes 的 server 软件包即可。

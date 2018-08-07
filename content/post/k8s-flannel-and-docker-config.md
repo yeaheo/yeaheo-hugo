@@ -6,7 +6,7 @@ categories = ["kubernetes"]
 menu = ""
 disable_comments = true
 banner = "cover/k8s007.png"
-description = ""
+description = "k8s 集群安装配置 etcd 的时会为安装的 k8s 集群配置一个网段，这个网段是整个集群中容器可以使用的 ip 地址段，但是如何确保每个 minion 节点中容器的 ip 地址是唯一的，就需要 flannel 来提供服务了，flannel 服务需要配合 docker 进行相应配置"
 +++
 
 

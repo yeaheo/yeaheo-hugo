@@ -6,7 +6,7 @@ categories = ["kubernetes"]
 menu = ""
 disable_comments = true
 banner = "cover/k8s010.png"
-description = ""
+description = "在 k8s 集群中，pod 的生命周期是短暂的，pod 重启后 ip 地址会产生变化，对于应用程序来说这是不可接受的，为解决这个问题，k8s 集群巧妙的引入的 dns 服务来实现服务的发现，这样就不用担心 pod 重启后 IP 变化导致服务找不到了，具体安装教程可以参考如下内容："
 +++
 
 - `kube-dns` 官方的 `yaml` 文件其实在我们先前下载的 `kubernetes server` 软件包内，具体路径为：`/srv/kubernetes/cluster/addons/dns`

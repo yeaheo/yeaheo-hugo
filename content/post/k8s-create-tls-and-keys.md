@@ -6,7 +6,7 @@ categories = ["kubernetes"]
 menu = ""
 disable_comments = true
 banner = "cover/k8s002.png"
-description = ""
+description = "kubernetes 系统的各组件需要使用 TLS 证书对通信进行加密，而且各个组件对证书的依赖也各不相同，需要我们自己生成相关证书，本文档使用 CloudFlare 的 PKI 工具集 cfssl 来生成 Certificate Authority (CA) 和其它证书；"
 +++
 
 - 集群环境如下：
