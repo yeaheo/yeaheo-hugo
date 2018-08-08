@@ -1,1 +1,1 @@
-- HTML code of my blog - https://yeaheo.com
+- html code of my blog - https://yeaheo.com
