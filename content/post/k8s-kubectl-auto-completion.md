@@ -4,7 +4,7 @@ date = 2018-07-27T10:39:56+08:00
 tags = ["kubernetes"]
 categories = ["kubernetes"]
 menu = ""
-disable_comments = false
+disable_comments = true
 banner = "cover/k8s009.png"
 description = "成功部署了 kubernetes 集群后，我们通常是通过 kubectl 这个命令行工具进行操作，默认该工具不能自动补全命令，但是我们可以进行一系列配置来实现其自动补全的功能，kubectl 命令行工具本身就支持 complication ，只需要简单的设置下就可以了。"
 +++

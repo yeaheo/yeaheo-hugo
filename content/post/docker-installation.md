@@ -4,7 +4,7 @@ date = 2018-07-26T10:12:24+08:00
 tags = ["docker"]
 categories = ["docker"]
 menu = ""
-disable_comments = false
+disable_comments = true
 banner = "cover/blog012.jpg"
 description = "docker 的安装方式有好多种，除了直接用自带的 yum 源安装外，官方还提供了 docker 各个版本的 yum 源，本次安装选择在 CentOS 7 系统上安装免费版的的 ce 版本，也就是社区版，免费的，具体安装教程参考官方文档相关教程："
 +++

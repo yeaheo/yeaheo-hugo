@@ -4,7 +4,7 @@ date = 2018-07-26T13:02:49+08:00
 tags = ["ceph"]
 categories = ["ceph"]
 menu = ""
-disable_comments = false
+disable_comments = true
 banner = "cover/blog015.jpg"
 description = "为了能够更快速的体验 ceph 的功能，这次部署我们选用一个管理节点和三个 MON 节点、三个 OSD 节点，一旦集群达到 active + clean 状态，还可以扩展：增加 OSD 节点、增加元数据服务器或者增加 MON 节点。"
 +++

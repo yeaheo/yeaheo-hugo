@@ -4,7 +4,7 @@ date = 2018-07-27T10:37:26+08:00
 tags = ["kubernetes"]
 categories = ["kubernetes"]
 menu = ""
-disable_comments = false
+disable_comments = true
 banner = "cover/k8s004.png"
 description = "需要说明的是 kubelet、kube-proxy 等 Node 机器上的进程与 Master 机器的 kube-apiserver 进程通信时需要认证和授权，kubernetes v1.4 版本开始支持由 kube-apiserver 为客户端生成 TLS 证书的 TLS Bootstrapping功能，这样就不需要为每个客户端生成证书了，但目前只支持为 kubectl 生成证书。"
 +++

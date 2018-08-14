@@ -4,7 +4,7 @@ date = 2018-07-28T10:23:25+08:00
 tags = ["tomcat"]
 categories = ["tomcat"]
 menu = ""
-disable_comments = false
+disable_comments = true
 banner = "cover/tomcat001.jpg"
 description = "有时候，我们用的 tomcat 访问的时候会出现 tomcat 的版本号，这样是不安全的，有些人会利用某些版本的 tomcat 的漏洞对我们的网站进行攻击，为了比较安全的应用 tomcat 我们这里介绍如何隐藏 tomcat 的版本号。"
 +++

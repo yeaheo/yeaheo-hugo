@@ -4,7 +4,7 @@ date = 2018-07-28T10:06:34+08:00
 tags = ["docker"]
 categories = ["docker"]
 menu = ""
-disable_comments = false
+disable_comments = true
 banner = "cover/docker001.jpg"
 description = "国内从 Docker Hub 拉取镜像有时会遇到困难，此时可以配置镜像加速器。Docker 官方和国内很多云服务商都提供了国内加速器服务，例如：Docker 官方提供的中国 registry mirror 或者是 阿里云镜像加速器，其他镜像加速器这里就不推荐了，道理一样的"
 +++

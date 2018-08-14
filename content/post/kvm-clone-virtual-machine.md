@@ -4,7 +4,7 @@ date = 2018-08-08T10:35:45+08:00
 tags = ["kvm","virtualization"]
 categories = ["kvm"]
 menu = ""
-disable_comments = false
+disable_comments = true
 banner = "cover/kvm005.jpg"
 description = "在大多数情况下我们安装虚拟机的时候都会感到特别慢，而且新安装的虚拟机一些必须的软件包还需要单独下载安装，为了简化我们的操作步骤，有时候我们需要配置一个虚拟机模板，然后直接克隆此虚拟机模板即可。"
 +++

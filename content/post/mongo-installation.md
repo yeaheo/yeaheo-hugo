@@ -4,7 +4,7 @@ date = 2018-08-04T16:06:33+08:00
 tags = ["mongodb"]
 categories = ["mongodb"]
 menu = ""
-disable_comments = false
+disable_comments = true
 banner = "cover/mongo001.png"
 description = "MongoDB 是一个基于分布式文件存储的数据库。由 C++ 语言编写。旨在为 WEB 应用提供可扩展的高性能数据存储解决方案。MongoDB 是一个介于关系数据库和非关系数据库之间的产品，是非关系数据库当中功能最丰富，最像关系数据库的。"
 +++

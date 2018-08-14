@@ -4,7 +4,7 @@ date = 2018-07-30T15:28:40+08:00
 tags = ["kvm","virtualization"]
 categories = ["kvm"]
 menu = ""
-disable_comments = false
+disable_comments = true
 banner = "cover/kvm001.jpg"
 description = "KVM 虚拟化需要 CPU 的硬件虚拟化加速的支持，在本环境中为 Intel 的 CPU，使用的 Intel VT 技术。(该功能在有些主机里面可能需要去 BIOS 里面开启)，在安装部署之前需要做准备工作，具体包括：进 BIOS 开启虚拟化支持、关闭防火墙、关闭 Selinux 机制等等"
 +++

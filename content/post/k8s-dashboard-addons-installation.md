@@ -4,7 +4,7 @@ date = 2018-07-27T10:41:32+08:00
 tags = ["kubernetes"]
 categories = ["kubernetes"]
 menu = ""
-disable_comments = false
+disable_comments = true
 banner = "cover/k8s011.png"
 description = "kubernetes 仪表板是 Kubernetes 集群的通用基于 Web 的 UI。它允许用户管理在集群中运行的应用程序，对它们进行故障排除，并管理集群本身。有了 dashboard 我们可以更直观的看到集群的各种信息，挺方便的"
 +++

@@ -4,7 +4,7 @@ date = 2018-08-14T14:25:00+08:00
 tags = ["fastdfs"]
 categories = ["fastdfs"]
 menu = ""
-disable_comments = false
+disable_comments = true
 banner = "cover/fdfs005.jpg"
 description = "FastDFS 通过 Tracker 服务器，将文件放在 Storage 服务器存储，但是同组存储 Storage 服务器之间需要进行文件复制，有同步延迟的问题。当我们遇到即时通信的场景时，这个延迟问题是很严重的，下面通过配置 fastdfs-nginx-module 解决同步延迟的问题"
 +++

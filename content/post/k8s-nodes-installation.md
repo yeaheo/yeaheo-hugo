@@ -4,7 +4,7 @@ date = 2018-07-27T10:39:24+08:00
 tags = ["kubernetes"]
 categories = ["kubernetes"]
 menu = ""
-disable_comments = false
+disable_comments = true
 banner = "cover/k8s008.png"
 description = "kubernetes 集群中 node 节点包含的服务一般包括：flanneld、docker、kubelet、kube-proxy。需要注意的是每台 node 上都需要安装 flannel，master 节点上可以不必安装，如果需要通过 master 访问 node 上的服务可以安装 flannel 服务。"
 +++

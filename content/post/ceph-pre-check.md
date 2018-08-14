@@ -4,7 +4,7 @@ date = 2018-07-26T13:02:46+08:00
 tags = ["ceph"]
 categories = ["ceph"]
 menu = ""
-disable_comments = false
+disable_comments = true
 banner = "cover/blog017.jpg"
 description = "这篇预检会帮你准备一个 `ceph-deploy` 管理节点、以及三个 Ceph 节点（或虚拟机），以此构成 Ceph 存储集群。在进行下一步之前，请参见操作系统推荐以确认你安装了合适的 Linux 发行版。如果你在整个生产集群中只部署了单一 Linux 发行版的同一版本，那么在排查生产环境中遇到的问题时就会容易一点。"
 +++

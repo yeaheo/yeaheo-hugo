@@ -4,7 +4,7 @@ date = 2018-07-28T14:39:29+08:00
 tags = ["mysql"]
 categories = ["mysql"]
 menu = ""
-disable_comments = false
+disable_comments = true
 banner = "cover/mysql004.jpg"
 description = "有些时候我们在连接数据库的时候报错，大概意思就是密码过期了，需要重置密码，具体提示信息类似：ERROR 1820 (HY000): You must reset your password using ALTER USER statement before executing this statement. 一般这个时候我们需要重现设置密码或者设置密码的有效期"
 +++

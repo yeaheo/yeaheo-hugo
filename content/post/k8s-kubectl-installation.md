@@ -4,7 +4,7 @@ date = 2018-07-27T10:36:50+08:00
 tags = ["kubernetes"]
 categories = ["kubernetes"]
 menu = ""
-disable_comments = false
+disable_comments = true
 banner = "cover/k8s003.png"
 description = "在 kubernetes 集群中 kubectl 是个非常重要的命令行工具，它的作用相当于 docker 的相关命令，可以通过自己定义的 yaml 文件启动相关 pod 及 service，所以当我们拥有 k8s 集群后需要从 docker 过度到 kubectl"
 +++

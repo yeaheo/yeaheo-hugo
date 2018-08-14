@@ -4,7 +4,7 @@ date = 2018-08-07T10:36:27+08:00
 tags = ["kvm","virtualization"]
 categories = ["kvm"]
 menu = ""
-disable_comments = false
+disable_comments = true
 banner = "cover/kvm004.jpg"
 description = "kvm 虚拟机默认使用的是 raw 格式的磁盘，这种磁盘速度最快，性能最好，但是这种格式的磁盘是不支持镜像功能的，也不支持 zlib 磁盘压缩和 AES 加密，所以我们需要转换磁盘格式，将 raw 格式的磁盘转换成 qcow2 格式即可。"
 +++

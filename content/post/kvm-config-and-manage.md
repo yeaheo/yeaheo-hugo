@@ -4,7 +4,7 @@ date = 2018-08-01T17:30:19+08:00
 tags = ["kvm","virtualization"]
 categories = ["kvm"]
 menu = ""
-disable_comments = false
+disable_comments = true
 banner = "cover/kvm003.jpg"
 description = "KVM 虚拟机的日常管理主要是通过 `virsh` 命令进行的。我们可以通过该命令对我们新建的虚拟机进行管理，包括查看虚拟机状态，操作虚拟机开关机以及对虚拟机进行快照备份等，以下具体操作示例均在如下环境上进行操作示例，其他系统类似。"
 +++

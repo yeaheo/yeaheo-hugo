@@ -4,7 +4,7 @@ date = 2018-07-26T10:11:44+08:00
 tags = ["docker"]
 categories = ["docker"]
 menu = ""
-disable_comments = false
+disable_comments = true
 banner = "cover/blog011.jpg"
 description = "Docker 最初是由 dotCloud 公司创始人 Solomon Hykes 发起的一个公司的内部项目，并于 2013 年实现开源，Docker 使用谷歌公司自己开发的 GO 语言实现的，基于 Linux 内核的 cgroup、 namespace 和 AUFS 类的 Union FS 等技术，对进程进行隔离封装，属于操作系统层面的虚拟化技术。"
 +++
