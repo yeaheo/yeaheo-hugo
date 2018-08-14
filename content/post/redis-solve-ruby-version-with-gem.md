@@ -4,7 +4,7 @@ date = 2018-07-24T20:17:52+08:00
 tags = ["redis"]
 categories = ["redis"]
 menu = ""
-disable_comments = true
+disable_comments = false
 banner = "cover/blog006.png"
 description = "我们安装 redis 的时候，在大多数情况下利用的是 redis 源码编译的方式，但有时候我们也可以利用 gem 安装 redis，但在安装前有些注意事项需要我们留意一下，这些都是本人在工作中遇到的问题，希望可以帮助大家"
 +++

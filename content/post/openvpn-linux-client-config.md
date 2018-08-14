@@ -4,7 +4,7 @@ date = 2018-07-26T15:22:28+08:00
 tags = ["openvpn"]
 categories = ["OpenVPN"]
 menu = ""
-disable_comments = true
+disable_comments = false
 banner = "cover/blog019.jpg"
 description = "最近北京机房的机器需要连接上海机房的服务器，上海机房用的 VPN 服务是 OpenVPN。又听说 OpenVPN 客户端可以在 Linux 服务器上运行，所以研究了一下 OpenVPN 如何在 Linux 服务器上使用。"
 +++

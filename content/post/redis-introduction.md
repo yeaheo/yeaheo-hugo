@@ -4,7 +4,7 @@ date = 2018-07-28T10:12:52+08:00
 tags = ["redis"]
 categories = ["redis"]
 menu = ""
-disable_comments = true
+disable_comments = false
 banner = "cover/redis002.jpg"
 description = "redis 是一个开源（BSD许可）的内存中的数据结构存储系统,它可以用作数据库、缓存和消息中间件。 它支持多种类型的数据结构，如 字符串（strings)、散列（hashes）、列表（lists）、集合（sets）、序集合（sorted sets）与范围查询、bitmaps、hyperloglogs 和 地理空间（geospatial）索引半径查询。"
 +++

@@ -4,7 +4,7 @@ date = 2018-07-28T14:22:30+08:00
 tags = ["fastdfs"]
 categories = ["fastdfs"]
 menu = ""
-disable_comments = true
+disable_comments = false
 banner = "cover/fdfs003.jpg"
 description = "安装了 FastDFS 后，并配置启动了 Tracker 和 Storage 服务，已经可以上传文件了，但是我没有上传测试，因为上传成功我看不了，所以，需要配合 Nginx 来进行文件的上传下载，这一篇就安装 Nginx 以及结合 fastdfs-nginx-module 模块使用。"
 +++

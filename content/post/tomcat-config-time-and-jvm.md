@@ -4,7 +4,7 @@ date = 2018-07-29T14:17:45+08:00
 tags = ["tomcat"]
 categories = ["tomcat"]
 menu = ""
-disable_comments = true
+disable_comments = false
 banner = "cover/tomcat003.jpg"
 description = "在大多数情况下，如果不对 tomcat 做某些配置，当我们查看 tomcat 的输出日志时会发现 tomcat 日志输出的时间和服务器本身时间相差整整 8 小时，这个是时区的问题，需要我们对 tomcat 的时区进行一些配置，具体参考如下："
 +++

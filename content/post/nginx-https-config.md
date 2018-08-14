@@ -4,7 +4,7 @@ date = 2018-07-30T18:13:39+08:00
 tags = ["nginx"]
 categories = ["nginx"]
 menu = ""
-disable_comments = true
+disable_comments = false
 banner = "cover/nginx006.png"
 description = "默认情况下 ssl 模块并未被安装，如果要使用该模块则需要在编译时指定 --with-http_ssl_module 参数，安装模块依赖于 OpenSSL 库和一些引用文件，通常这些文件并不在同一个软件包中。通常这个文件名类似 libssl-dev。"
 +++

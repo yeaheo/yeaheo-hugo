@@ -4,7 +4,7 @@ date = 2018-07-27T10:36:22+08:00
 tags = ["kubernetes"]
 categories = ["kubernetes"]
 menu = ""
-disable_comments = true
+disable_comments = false
 banner = "cover/k8s002.png"
 description = "kubernetes 系统的各组件需要使用 TLS 证书对通信进行加密，而且各个组件对证书的依赖也各不相同，需要我们自己生成相关证书，本文档使用 CloudFlare 的 PKI 工具集 cfssl 来生成 Certificate Authority (CA) 和其它证书；"
 +++

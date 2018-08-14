@@ -4,7 +4,7 @@ date = 2018-07-25T19:45:50+08:00
 tags = ["git"]
 categories = ["git"]
 menu = ""
-disable_comments = true
+disable_comments = false
 banner = "cover/blog009.png"
 description = "Git 是一个开源的分布式版本控制系统，用于敏捷高效地处理任何或小或大的项目。与常用的版本控制工具 CVS、Subversion 等不同，它采用了分布式版本库的方式，不必服务器端软件支持。但有时候也需要我们安装较新版本的 git"
 +++

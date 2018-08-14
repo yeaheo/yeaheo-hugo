@@ -4,7 +4,7 @@ date = 2018-07-27T10:38:00+08:00
 tags = ["kubernetes"]
 categories = ["kubernetes"]
 menu = ""
-disable_comments = true
+disable_comments = false
 banner = "cover/k8s005.png"
 description = "kuberntes 集群使用 etcd 存储所有数据,包括 kubernetes 集群中各个 pod 的状态以及集群中的其他数据，所以 etcd 集群对于整个集群是很重要的，本部分我们介绍部署一个三节点的高可用 etcd 集群，这三个节点复用kubernetes master机器。"
 +++

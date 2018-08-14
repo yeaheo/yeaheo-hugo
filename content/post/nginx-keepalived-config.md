@@ -4,7 +4,7 @@ date = 2018-07-29T16:59:24+08:00
 tags = ["nginx"]
 categories = ["nginx"]
 menu = ""
-disable_comments = true
+disable_comments = false
 banner = "cover/nginx005.jpg"
 description = "有时候我们用 nginx 做站点 WEB Server，但是用一个站点就会出现单点故障，当 nginx 宕机后整个服务会受到影响，所以我们需要对 nginx 做 HA 配置，这里推荐 Nginx+Keepalived 配置，具体配置可以参考如下："
 +++

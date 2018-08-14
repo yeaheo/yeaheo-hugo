@@ -4,7 +4,7 @@ date = 2018-07-24T18:40:31+08:00
 tags = ["openvpn"]
 categories = ["OpenVPN"]
 menu = ""
-disable_comments = true
+disable_comments = false
 banner = "cover/placeholder.png"
 description = "OpenVPN 是一个用于创建虚拟专用网络加密通道的软件包，最早由 James Yonan 编写。OpenVPN 允许创建的 VPN 使用公开密钥、电子证书、或者用户名/密码来进行身份验证。它大量使用了 OpenSSL 加密库中的 SSLv3/TLSv1 协议函数库。OpenVPN 的技术核心是虚拟网卡，其次是 SSL 协议实现。"
 +++

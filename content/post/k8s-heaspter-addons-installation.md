@@ -4,7 +4,7 @@ date = 2018-07-27T10:41:56+08:00
 tags = ["kubernetes"]
 categories = ["kubernetes"]
 menu = ""
-disable_comments = true
+disable_comments = false
 banner = "cover/k8s012.png"
 description = "当我们安装了 kubernetes-dashboard 插件后默认是不显示 CPU 负载信息折线图等信息的。这是因为我们没有安装 heapster 插件，这个时候需要我们再在集群里安装 heapster 插件，安装好后就可以在 dashboard 中看到 CPU 负载信息折线图等信息了"
 +++

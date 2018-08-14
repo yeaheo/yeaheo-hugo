@@ -4,7 +4,7 @@ date = 2018-07-24T16:14:45+08:00
 tags = ["nginx","SSL"]
 categories = ["nginx"]
 menu = ""
-disable_comments = true
+disable_comments = false
 banner = "cover/nginx007.png"
 description = "Let's Encrypt 是一个免费、开放，自动化的证书颁发机构，由 ISRG（Internet Security Research Group）运作。Let's Encrypt 是一个于2015年三季度推出的数字证书认证机构，将通过旨在消除当前手动创建和安装证书的复杂过程的自动化流程，为安全网站提供免费的SSL/TLS证书。"
 +++

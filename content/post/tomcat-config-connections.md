@@ -4,7 +4,7 @@ date = 2018-07-29T14:17:29+08:00
 tags = ["tomcat"]
 categories = ["tomcat"]
 menu = ""
-disable_comments = true
+disable_comments = false
 banner = "cover/tomcat002.jpg"
 description = "当我们用 tomcat 作为我们的 web 服务器的时候，为了更好的体验 tomcat 服务，我们需要对 tomcat 做一些优化配置，这里我主要介绍 tomcat 连接数的配置，这些配置也是工作中经常用到的，其他配置会在后续博文中更新，希望可以帮助大家"
 +++

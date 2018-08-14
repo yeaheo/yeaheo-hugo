@@ -4,7 +4,7 @@ date = 2018-07-25T19:54:09+08:00
 tags = ["nginx"]
 categories = ["nginx"]
 menu = ""
-disable_comments = true
+disable_comments = false
 banner = "cover/blog008.jpg"
 description = "当我们利用代码获取数据的时候使用，涉及到的两个 url 只要协议、域名、端口有任何一个不同，都被当作是不同的域，相互访问就会有跨域问题，下面是关于 nginx 解决跨域问题的相关教程，希望可以帮助大家"
 +++

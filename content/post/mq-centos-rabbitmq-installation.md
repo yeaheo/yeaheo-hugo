@@ -4,7 +4,7 @@ date = 2018-07-24T19:45:51+08:00
 tags = ["rabbitmq"]
 categories = ["linux-tools"]
 menu = ""
-disable_comments = true
+disable_comments = false
 banner = "cover/blog005.jpg"
 description = "RabbitMQ 是由 LShift 提供的一个 Advanced Message Queuing Protocol (AMQP) 的开源实现，由以高性能、健壮以及可伸缩性出名的 Erlang 写成，因此也是继承了这些优点。在这里，我们尝试在 CentOS7 系统上安装 RabbitMQ ，安装方式选择 yum 的安装方式。"
 +++

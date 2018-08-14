@@ -4,7 +4,7 @@ date = 2018-07-26T13:03:25+08:00
 tags = ["ceph"]
 categories = ["ceph"]
 menu = ""
-disable_comments = true
+disable_comments = false
 banner = "cover/blog018.jpg"
 description = "由于网络方面的原因，ceph 的部署经常受到干扰，通常为了加速部署，基本上大家都是将 ceph 的源同步到本地进行安装。根据 ceph 中国社区的统计，当前已经有国内的网站定期将 ceph 安装源同步，极大的方便了我们的测试。本文就是介绍如何使用国内源，加速 ceph-deploy 部署 ceph 集群。"
 +++

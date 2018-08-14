@@ -4,7 +4,7 @@ date = 2018-07-29T16:56:31+08:00
 tags = ["docker"]
 categories = ["docker"]
 menu = ""
-disable_comments = true
+disable_comments = false
 banner = "cover/docker003.jpg"
 description = "在 Docker 容器创建好之后，可能会发现容器时间跟宿主机时间不一致，这就需要同步它们的时间，让容器时间跟宿主机时间保持一致。这样可以更好的体验 docker 容器带来的服务，而且也让我们可以更好的配置"
 +++

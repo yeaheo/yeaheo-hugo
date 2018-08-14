@@ -4,7 +4,7 @@ date = 2018-07-28T10:13:03+08:00
 tags = ["redis"]
 categories = ["redis"]
 menu = ""
-disable_comments = true
+disable_comments = false
 banner = "cover/redis001.jpg"
 description = "redis 是完全开源免费的，遵守 BSD 协议，是一个高性能的 key-value 数据库，在软件开发场景中用得比较多， redis 安装其实很简单，本次我是在 centos 7 系统上安装，其他系统安装过程类似，可以参考本文档。"
 +++

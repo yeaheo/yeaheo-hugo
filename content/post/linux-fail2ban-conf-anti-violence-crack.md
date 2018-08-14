@@ -4,7 +4,7 @@ date = 2018-07-25T18:16:40+08:00
 tags = ["linux"]
 categories = ["linux-tools"]
 menu = ""
-disable_comments = true
+disable_comments = false
 banner = "cover/linux007.jpg"
 description = "fail2ban 是一款实用软件，它可以监视你的系统日志，然后匹配日志的错误信息（正则式匹配）执行相应的屏蔽动作。我们可以利用这个特性在服务器上配置防暴力破解，这样可以使我们的服务器变的更加安全，以此来加固我们的服务器"
 +++

@@ -4,7 +4,7 @@ date = 2018-07-28T18:17:29+08:00
 tags = ["ftp"]
 categories = ["linux-tools"]
 menu = ""
-disable_comments = true
+disable_comments = false
 banner = "cover/linux005.jpg"
 description = "SFTP 是 Secure File Transfer Protocol 的缩写，安全文件传送协议。可以为传输文件提供一种安全的网络的加密方法。我们可以利用 SFTP 在多台主机之间传送文件，这个在工作中用到的比较多，推荐大家尝试一下，比较方便。"
 +++

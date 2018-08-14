@@ -4,7 +4,7 @@ date = 2018-08-09T19:06:53+08:00
 tags = ["docker","nexus3"]
 categories = ["docker"]
 menu = ""
-disable_comments = true
+disable_comments = false
 banner = "cover/nexus001.png"
 description = "在本篇文章我们要向大家介绍的正是 Sonatype Nexus 3 这个强大的工具，它不仅仅能够用于创建 Maven 私服，还可以用来创建 bower、npm、nuget、pypi、rubygems 等各种私有仓库，受到 docker 技术不断被追捧的影响，Nexus 从 3.0 版本也开始支持创建 Docker 镜像仓库了。"
 +++

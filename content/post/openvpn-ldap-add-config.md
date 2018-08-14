@@ -4,7 +4,7 @@ date = 2018-07-24T19:11:59+08:00
 tags = ["openvpn"]
 categories = ["OpenVPN"]
 menu = ""
-disable_comments = true
+disable_comments = false
 banner = "cover/blog003.jpg"
 description = "前面我们已经将 OpenVPN 集成了 LDAP，实现了 LDAP 统一认证，是还有个问题就是现在所有的 LDAP 用户均可登录 OpenVPN 进而可以访问所有的主机，这个不是我们期望的，我们期望的是只有特定组内的成员才可以成功登录 OpenVPN。"
 +++
