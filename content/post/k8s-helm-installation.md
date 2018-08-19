@@ -133,3 +133,12 @@ Server: &version.Version{SemVer:"v2.9.1", GitCommit:"20adb27c7c5868466912eebdf66
 ```
 
  
+
+### 卸载 Helm 服务端 Tiller
+
+如果你需要在 Kubernetes 中卸载已部署的 Tiller，可使用以下命令完成卸载：
+
+```bash
+$ helm reset
+```
+
