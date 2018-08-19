@@ -9,7 +9,7 @@ banner = "cover/redis002.jpg"
 description = "redis 是一个开源（BSD许可）的内存中的数据结构存储系统,它可以用作数据库、缓存和消息中间件。 它支持多种类型的数据结构，如 字符串（strings)、散列（hashes）、列表（lists）、集合（sets）、序集合（sorted sets）与范围查询、bitmaps、hyperloglogs 和 地理空间（geospatial）索引半径查询。"
 +++
 
-- redis 是完全开源免费的，遵守 BSD 协议，是一个高性能的 `key-value` 数据库。
+redis 是完全开源免费的，遵守 BSD 协议，是一个高性能的 `key-value` 数据库。
 
 ### redis 特点
 - redis 与其他 `key-value` 缓存产品有以下三个特点：

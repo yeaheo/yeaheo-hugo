@@ -9,22 +9,22 @@ banner = "cover/docker002.jpg"
 description = "有时候我们需要的是当 docker 服务重启后以前运行的容器依然在运行，但是官方默认的是当 docker 服务停止后，以前运行的容器就会停止，需要重新启动，这样有时候并不是我们期望的，这种情况官方也有考虑，也做了具体的解决方案。"
 +++
 
-- 有时候我们需要的是当 docker 服务重启后以前运行的容器依然在运行，但是官方默认的是当 docker 服务停止后，以前运行的容器就会停止，需要重新启动
-- Docker 官方参考链接：<https://docs.docker.com/engine/admin/live-restore>
+有时候我们需要的是当 docker 服务重启后以前运行的容器依然在运行，但是官方默认的是当 docker 服务停止后，以前运行的容器就会停止，需要重新启动
 
-- 在 Linux 系统中 Docker 服务默认的配置文件是 `/etc/docker/daemon.json`
-- 编辑 `/etc/docker/daemon.json` 增加如下内容：
+Docker 官方参考链接：<https://docs.docker.com/engine/admin/live-restore>
 
-  ```bash
-  {
-    "live-restore": true
-  }
-  ```
+在 Linux 系统中 Docker 服务默认的配置文件是 `/etc/docker/daemon.json`
 
-- 修改完成，重启 docker 使其生效即可
+编辑 `/etc/docker/daemon.json` 增加如下内容：
 
-  ```bash
-  systemctl restart docker.service
-  ```
+```bash
+{
+  "live-restore": true
+}
+```
+修改完成，重启 docker 使其生效即可
 
+```bash
+systemctl restart docker.service
+```
 
