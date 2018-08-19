@@ -14,7 +14,7 @@ description = "Helm 是 Kubernetes 生态系统中的一个软件包管理工具
 
 Helm 官方网站：<https://helm.sh>
 
-
+Helm 官方 GitHub : <https://github.com/helm/helm>
 
 ### Helm 基本概念
 
