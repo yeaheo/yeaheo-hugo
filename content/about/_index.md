@@ -1,7 +1,7 @@
 +++
-title = "About me"
+title = "关于我"
 date = "2017-05-19T21:49:20+02:00"
-menu = "main"
+menu = ""
 disable_comments = true
 banner = "cover/blog001.jpg"
 +++

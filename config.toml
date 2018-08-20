@@ -64,6 +64,11 @@ themesDir = "themes"
     label  = "Categories"
     link   = "categories/"
 
+[[params.menu]]
+    before = true
+    label  = "About"
+    link   = "about/"
+
 # Enter a link for the follow button on the left
 [params.profile]
     follow_button = "https://github.com/yeaheo"
