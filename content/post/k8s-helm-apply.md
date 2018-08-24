@@ -6,7 +6,7 @@ categories = ["kubernetes"]
 menu = ""
 disable_comments = true
 banner = "cover/k8s015.png"
-description = "以前我已经在 kubernetes 集群中已经安装了 Helm 和 Tiller，那么接下来我们需要熟悉一下 Helm 的基本应用，主要包括借助 Helm 创建、打包、分发、安装、升级及回滚 kubernetes 应用。"
+description = "以前我已经在 kubernetes 集群中已经安装了 Helm 和 Tiller，那么接下来我们需要熟悉一下 Helm 的基本应用，主要包括借助 Helm 创建、打包、分发到本地仓库等等，这是基本操作，为以后在 kubernetes 集群中部署应用做铺垫。"
 
 +++
 
@@ -142,8 +142,6 @@ $ helm lint mychart/
 
 > 如果文件格式错误，可以根据提示进行修改
 
-
-
 ### 打包应用
 
 当我们修改完相关 YAML 文件的相关配置项后，下一步就是将该应用打包，具体打包操作如下所示：
@@ -236,8 +234,6 @@ $ helm repo update
 ```
 
 将本地 Repository 加入 Helm 的 Repo 列表后再次搜索 chart 一般就可以得到结果了，如果还有报错，可以依据报错信息查找问题再解决问题。
-
-### 部署 chart 到 kubernetes 集群
 
 
 
