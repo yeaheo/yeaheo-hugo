@@ -15,9 +15,9 @@ description = "早期版本的 openssh 具有较大漏洞，有时候一些人�
 
 安装 TELNET 服务可以参考 [安装配置TELNET](https://yeaheo.com/post/linux-telnet-installation/)
 
+### 检查当前服务器版本
 
-
-**检查当前服务器版本**
+升级之前先检查一下版本：
 
 ```bash
 [root@kbweb1 ~]# ssh -V
@@ -25,7 +25,10 @@ OpenSSH_6.6.1p1, OpenSSL 1.0.1e-fips 11 Feb 2013
 ```
 
 
-**查看当前已经安装的 OpenSSH 软件包**
+
+### 查看当前已经安装的 OpenSSH 软件包
+
+默认 SSH 是用 yum 安装的，我们可以先查看一下已安装的软件包：
 
 ```bash
 [root@kbweb1 ~]# rpm -qa | grep openssh
@@ -35,14 +38,13 @@ openssh-server-6.6.1p1-25.el7_2.x86_64
 ```
 
 
-**安装编译环境**
+安装编译环境
 
 ```bash
 yum install zlib-devel openssl-devel gcc gcc-c++ make -y
 ```
 
-
-**编译新版本的OpenSSH版本**
+### 编译安装新版本的OpenSSH版本
 
 OpenSSH 官方网站: <http://www.openssh.com/>
 
@@ -59,7 +61,13 @@ cd /usr/src/openssh-7.6p1
 ./configure --prefix=/usr/local/openssh
 make
 ```
-**安装并配置新版本的OpenSSH**
+备份旧版本相关文件：
+
+```bash
+cp -rf /etc/ssh /etc/sshbak && cp /usr/sbin/sshd /usr/sbin/sshd.bak && cp /usr/bin/ssh /usr/bin/ssh.bak && cp /usr/bin/ssh-keygen /usr/bin/ssh-keygen.bak
+```
+
+安装并配置新版本的OpenSSH
 
 在这里需要先卸载旧版本的 OpenSSH
 
@@ -77,6 +85,7 @@ make install
 ```bash
 cp /usr/src/openssh-7.6p1/contrib/redhat/sshd.init /etc/init.d/sshd
 chkconfig --add sshd
+chkconfig sshd on
 ```
 复制执行文件
 
@@ -85,6 +94,8 @@ cp /usr/local/openssh/sbin/sshd  /usr/sbin/sshd
 cp /usr/local/openssh/bin/ssh /usr/bin/
 cp /usr/local/openssh/bin/ssh-keygen /usr/bin/
 ```
+> 其他 ssh 相关工具在源码解压目录的 `contrib` 子目录下，例如 `ssh-copy-id` ，如果需要可以将其放到 PATH 目录下并授权即可
+
 配置允许 root 用户远程登录
 
 ```bash
@@ -96,7 +107,9 @@ vim /usr/local/openssh/etc/sshd_config
 35 #MaxAuthTries 6
 36 #MaxSessions 10
 ```
-**重启 SSHD 服务并检测 SSH 版本**
+### 重启 SSHD 服务并检测 SSH 版本
+
+编译安装完成后重启服务：
 
 ```bash
 [root@lv-achieve ~]# service sshd restart

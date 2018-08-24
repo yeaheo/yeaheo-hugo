@@ -20,7 +20,7 @@ Telnet 命令一般用于远程登录。 Telnet 程序是基于 TELNET 协议的
 因为 Telnet 服务是通过 xinetd 服务启动的，所以我们需要先安装 xinetd 服务
 
 ```bash
-yum -y install  xinetd
+yum -y install  xinetd telnet telnet-server
 ```
 开启 root 用户登录权限
 
@@ -38,7 +38,7 @@ service telnet
       log_on_failure  += USERID
  }
 ```
-编辑认证模块
+编辑认证模块 `/etc/pam.d/remote` 
 
 ```bash
 #%PAM-1.0
@@ -62,11 +62,6 @@ session    include      postlogin
 
 ```bash
 systemctl start xinetd
-```
-将 TELNET 服务加入开机启动
-
-```bash
-chkconfig telnet on
 ```
 TELNET 服务默认监听 23 端口
 
