@@ -5,7 +5,7 @@ tags = ["kubernetes","helm"]
 categories = ["kubernetes"]
 menu = ""
 disable_comments = true
-banner = "cover/k8s015.png"
+banner = "cover/k8s015.jpg"
 description = "以前我已经在 kubernetes 集群中已经安装了 Helm 和 Tiller，那么接下来我们需要熟悉一下 Helm 的基本应用，主要包括借助 Helm 创建、打包、分发到本地仓库等等，这是基本操作，为以后在 kubernetes 集群中部署应用做铺垫。"
 
 +++
