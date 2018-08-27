@@ -6,7 +6,7 @@ categories = ["kubernetes"]
 menu = ""
 disable_comments = true
 banner = "cover/k8s017.png"
-description = "我们在使用 Helm 管理 Kubernetes 集群应用的时候我们可以针对 Helm 做些其他配置，这样有利于我们更方便的使用 Helm 管理应用，同时也可以很方便的应用 Helm 相关功能"
+description = "我们在使用 Helm 管理 Kubernetes 集群应用的时候我们可以针对 Helm 做些其他配置，这样有利于我们更方便的使用 Helm 管理应用，同时也可以很方便的应用 Helm 相关功能，Helm 其他技巧配置主要包括命令行补全、添加第三方 Chart 库、解决依赖关系等等。"
 
 +++
 
