@@ -323,6 +323,12 @@ source <(helm completion zsh)
 source <(helm completion bash)
 ```
 
+> 如果仅仅执行上述命令是不能达到我们预期的，当新开一个 bash 终端后是不能自动补全的，这就需要我们再做些配置，具体的就是将上述命令写到 `/etc/profile` 或者 `~/.bashrc` 文件下。
+
+```bash
+echo "source <(helm completion bash)" >> ~/.bashrc
+```
+
 
 
 ### 其他配置项
