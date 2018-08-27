@@ -1,6 +1,6 @@
 +++
 title = "Helm 部署应用到 Kubernetes 集群"
-date = 2018-08-27T11:13:45+08:00
+date = 2018-08-25T11:13:45+08:00
 tags = ["kubernetes","helm"]
 categories = ["kubernetes"]
 menu = ""
@@ -240,6 +240,12 @@ NOTES:
   export POD_NAME=$(kubectl get pods --namespace default -l "app=mychart,release=helm-test" -o jsonpath="{.items[0].metadata.name}")
   echo "Visit http://127.0.0.1:8080 to use your application"
   kubectl port-forward $POD_NAME 8080:80
+```
+
+也可以用如下命令查看已部署应用的详细信息：
+
+```bash
+$ helm get helm-test
 ```
 
 
