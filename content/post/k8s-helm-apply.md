@@ -142,6 +142,115 @@ $ helm lint mychart/
 
 > 如果文件格式错误，可以根据提示进行修改
 
+我们也可以使用`helm install --dry-run --debug <chart_dir>`命令来验证chart配置。该输出中包含了模板的变量配置与最终渲染的yaml文件。
+
+```bash
+$ helm install --dry-run --debug mychart
+[debug] Created tunnel using local port: '36589'
+
+[debug] SERVER: "127.0.0.1:36589"
+
+[debug] Original chart version: ""
+[debug] CHART PATH: /opt/workspace/mychart
+
+NAME:   youngling-flee
+REVISION: 1
+RELEASED: Mon Aug 27 10:56:07 2018
+CHART: mychart-0.1.0
+USER-SUPPLIED VALUES:
+{}
+
+COMPUTED VALUES:
+affinity: {}
+image:
+  pullPolicy: IfNotPresent
+  repository: nginx
+  tag: stable
+ingress:
+  annotations: {}
+  enabled: false
+  hosts:
+  - chart-example.local
+  path: /
+  tls: []
+nodeSelector: {}
+replicaCount: 1
+resources: {}
+service:
+  port: 80
+  type: ClusterIP
+tolerations: []
+
+HOOKS:
+MANIFEST:
+
+---
+# Source: mychart/templates/service.yaml
+apiVersion: v1
+kind: Service
+metadata:
+  name: youngling-flee-mychart
+  labels:
+    app: mychart
+    chart: mychart-0.1.0
+    release: youngling-flee
+    heritage: Tiller
+spec:
+  type: ClusterIP
+  ports:
+    - port: 80
+      targetPort: http
+      protocol: TCP
+      name: http
+  selector:
+    app: mychart
+    release: youngling-flee
+---
+# Source: mychart/templates/deployment.yaml
+apiVersion: apps/v1beta2
+kind: Deployment
+metadata:
+  name: youngling-flee-mychart
+  labels:
+    app: mychart
+    chart: mychart-0.1.0
+    release: youngling-flee
+    heritage: Tiller
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: mychart
+      release: youngling-flee
+  template:
+    metadata:
+      labels:
+        app: mychart
+        release: youngling-flee
+    spec:
+      containers:
+        - name: mychart
+          image: "nginx:stable"
+          imagePullPolicy: IfNotPresent
+          ports:
+            - name: http
+              containerPort: 80
+              protocol: TCP
+          livenessProbe:
+            httpGet:
+              path: /
+              port: http
+          readinessProbe:
+            httpGet:
+              path: /
+              port: http
+          resources:
+            {}
+
+```
+
+我们可以看到 Deployment 和 Service 的名字前半截由两个随机的单词组成，最后才是我们在`values.yaml`中配置的值。
+
 ### 打包应用
 
 当我们修改完相关 YAML 文件的相关配置项后，下一步就是将该应用打包，具体打包操作如下所示：
@@ -200,7 +309,23 @@ NAME         	CHART VERSION	APP VERSION	DESCRIPTION
 local/mychart	0.2.0        	1.0        	A Helm chart for Kubernetes
 ```
 
-#### 其他配置项
+### 设置helm命令自动补全
+
+为了方便 helm 命令的使用，helm 提供了自动补全功能，如果使用 zsh 请执行：
+
+```bash
+source <(helm completion zsh)
+```
+
+如果使用 bash 请执行：
+
+```bash
+source <(helm completion bash)
+```
+
+
+
+### 其他配置项
 
 在新版本下默认情况下，启动本地服务后，搜索 chart 是没问题的，但是有时候也会出现本地服务连接失效的问题，当出现此问题后我们可以尝试按如下步骤操作，有些步骤是可以不做的，例如，更改存储路径等。
 
