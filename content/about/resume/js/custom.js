@@ -66,14 +66,14 @@ $(document).ready(function(e) {
         if (windowWidth <= 767) {
 
             $banner.css({
-                'height': windowHeight - '50'
+                'height': windowHeight
             });
 
             console.log($banner.css('height'))
         } else {
             console.log(windowHeight - '140');
             $banner.css({
-                'height': windowHeight - '140'
+                'height': windowHeight
             });
         }
     }
