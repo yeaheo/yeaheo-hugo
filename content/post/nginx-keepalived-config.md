@@ -222,3 +222,4 @@ vim /etc/keepalived/keepalived.conf
 配置完成，分别启动两台机器的 nginx 和 keepalived 服务即可。
 
 > keepalived 配置文件中关于脚本的 `weight -2`一定要注释掉才能正常切换。
+
