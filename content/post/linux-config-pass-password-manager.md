@@ -5,7 +5,7 @@ tags = ["linux","pass"]
 categories = ["linux-tools"]
 menu = ""
 disable_comments = true
-banner = "http://wx3.sinaimg.cn/large/b258d7f7ly1fyaxayv637j21ja0loqqj.jpg"
+banner = "https://wx3.sinaimg.cn/large/b258d7f7ly1fyaxayv637j21ja0loqqj.jpg"
 description = "PASS 是 Linux 上的一个简单的命令行密码管理器，它将密码存储在一个 gpg 加密后的文件里。这些加密后的文件很好地组织按目录结构存放，现在密码管理器还是比较普遍的，其实这些密码管理器一般分为两种，一种是基于GUI，另一种是基于CLI的，而pass这款是基于CLI的密码管理器。"
 
 +++
