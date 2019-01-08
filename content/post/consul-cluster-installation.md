@@ -16,7 +16,7 @@ Consul 是 HashiCorp 公司推出的开源工具，用于实现分布式系统�
 - Key/Value存储: 应用程序可以根据自己的需要使用Consul提供的Key/Value存储。 Consul提供了简单易用的HTTP接口，结合其他工具可以实现动态配置、功能标记、领袖选举等等功能。
 - 多数据中心: Consul支持开箱即用的多数据中心. 这意味着用户不需要担心需要建立额外的抽象层让业务扩展到多个区域。
 Consul 各组件架构图如下图所示：
-![Consul 基本架构图](/Users/qingclass/Downloads/830561-20180605145306828-1197407773.png)
+![Consul 基本架构图](https://wx1.sinaimg.cn/large/b258d7f7ly1fxtos09avrj20g30goq5v.jpg)
 Consul 官方站点：https://www.consul.io
 Consul GitHub 站点：https://github.com/hashicorp/consul
 Consul 官方镜像：https://hub.docker.com/r/_/consul/
@@ -167,7 +167,7 @@ consul-client1  172.16.8.110:8301  alive   client  1.3.0  2         dc1  <defaul
 
 当然，我们也可以通过 consul 自带的 ui 界面查看集群信息，默人 ui 访问地址：http://172.16.8.120:8500 ，具体页面参考如下：
 
-![consul web ui](/Users/qingclass/Downloads/E5811D384242186AB5F182C4F4874CC0.png)
+![consul web ui](https://wx2.sinaimg.cn/large/b258d7f7ly1fxtowu4x20j211f0hnt8o.jpg)
 至此，整个 consul 集群部署完成。如果需要其他方式部署 consul 集群可以查阅 consul 官方文档：https://www.consul.io/docs/install/index.html
 
 > 如果 consul 集群用在生产环境需要认真考虑数据持久性
