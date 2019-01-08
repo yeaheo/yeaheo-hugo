@@ -19,7 +19,7 @@ themesDir = "themes"
 
 [params]
     # Tell me who you are
-    author = "Yeaheo"
+    author = "Eric Lve"
     bio = "eric.lv@aeric.io"
     location = "Beijing,China"
     site_description = "个人博客·越努力·越幸运"
