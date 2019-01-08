@@ -20,7 +20,7 @@ themesDir = "themes"
 [params]
     # Tell me who you are
     author = "Yeaheo"
-    bio = "helleo.cn@gmail.com"
+    bio = "eric.lv@aeric.io"
     location = "Beijing,China"
     site_description = "个人博客·越努力·越幸运"
     copyright  = "[yeaheo.com](https://yeaheo.com) All Right Reserved . Powered by [Github](//github.com/yeaheo)."
